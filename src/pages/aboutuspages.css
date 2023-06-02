@@ -1,0 +1,15 @@
+.container-about-us {
+    background-image: url('../components/Background.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+}
+
+@media (max-width: 768px) {
+    /* Ubah tinggi container-about-us menjadi 1200px saat lebar layar maksimum 768px */
+    .container-about-us {
+      height: 2500px;
+    }
+  }
+  

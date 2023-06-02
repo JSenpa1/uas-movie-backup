@@ -1,0 +1,53 @@
+.card-bungkus {
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 16px;
+    margin-right: 45px;
+    margin-left: 45px;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 10%; */
+    padding: 20px;
+}
+
+.card {
+    /* padding: 0px 50px;
+    background: rgba( 255, 255, 255, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba(5, 159, 206, 0.37);
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    height: 500px;
+    width: 30%;
+    border-radius: 18px; */
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin-top: 100px; 
+    margin-bottom: -100px; 
+    color: whitesmoke;
+    height: 450px;
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 8%;
+    text-align: center;
+    margin-bottom: 5px;
+}
